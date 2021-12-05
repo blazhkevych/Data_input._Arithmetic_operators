@@ -5,7 +5,12 @@ using namespace std;
 
 int main()
 {
-	cout << "" << endl;
-	
+    setlocale(LC_ALL, "Russian");
+
+	cout << "¬ведите число, дл€ возведени€ его в 3-ю степень: " << endl;
+	double number{ 0 };
+	cin >> number;
+	cout << "3-€ степень введенного ¬ами числа (" << number << ") числа равна " << number * number * number << "." << endl;
+
 	return 0;
 }
